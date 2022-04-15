@@ -1,0 +1,160 @@
+*{
+    margin:0 ;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+/* svg  */
+.menu-icon,
+.s-icon,
+.vs-icon{
+    width: 24px;
+}
+.logo{
+    width: 272px ;
+    height: 92px;
+}
+nav{
+    
+    display: flex;
+    justify-content: flex-end;
+    padding: 6px;
+
+}
+nav a {
+    padding: 5px 7px;
+    color: black;
+}
+/* descendant selecto-yeni ki button navin usagidi*/
+ nav button{
+     background: #1a73e8;
+     padding: 7px 12px;
+     border: 1px solid transparent;
+     color: #fff;
+     cursor: pointer;
+
+}
+section{
+
+    
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+section .logo{
+    display: block;
+    
+
+}
+
+.s-box{
+    
+    width: 600px;
+    margin: 0 auto;
+    position: relative;
+}
+.s-box .s-input{
+    
+    width: 100%;
+    padding: 13px;
+    padding-left: 45px;
+    padding-right: 60px ;
+    border-radius: 25px;
+    opacity: .2;
+    
+} 
+.s-icon{
+    position: absolute;
+    top: 13px;
+    left: 14px;
+    
+}
+.vs-icon{
+    position: absolute;
+    top: 13px;
+    right:14px ;
+    cursor: pointer;
+}
+.buttons{
+    
+    margin-top: 24px;
+    border-radius: 4px;
+    margin: 17px 5px;
+    
+    
+}
+.button{
+    font-size: 13px;
+    padding: 10px;
+    border: 1px solid transparent;
+    cursor: pointer;
+    background: #f8f9fa;
+    color: #3c4043;
+}
+span{
+    margin: 7px;
+    color: #3c4043;
+    
+}
+.lang a{
+    color: #1a0dab;
+    padding: 5px;
+
+}
+
+footer{
+    background-color: #f2f2f2;
+
+  
+
+}
+ h4{
+     padding: 15px 30px;
+     color: #70757a;
+     
+ }
+ hr{
+     opacity: .4;
+ }
+
+.links{
+    
+     display: flex;
+     justify-content: space-between;
+     padding: 5px 10px;
+ }
+ .link-left-side{
+     padding: 7px 20px;
+     
+
+ }
+ .link-left-side a{
+     padding: 15px;
+     font-size: 15px;
+     color: #70757a;
+     
+ }
+ .link-right-side{
+    margin-top: 7px ;
+    padding: 0px 20px;
+    
+
+ }
+ .link-right-side a{
+    padding: 15px;
+    font-size: 15px;
+    color: #70757a;
+    
+ }
+
+
+
+
+
